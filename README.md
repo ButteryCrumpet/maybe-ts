@@ -42,8 +42,8 @@ only done at the end of a pipeline or even not at all. Maybe<T>s \
 are monads and so can be mapped to other Maybe<any>s.\
 This is done using `Maybe.map()` and `Maybe.andThen()`.
 
-`Maybe.map` takes a map function of T => U for Maybe<T> while \
-`Maybe.andThen` takes a map function of T => Maybe<U> for Maybe<T>
+`Maybe.map` takes a map function of `T => U` for `Maybe<T>` while \
+`Maybe.andThen` takes a map function of `T => Maybe<U>` for `Maybe<T>`
 
 use `Maybe.map` for simple transformations and `Maybe.andThen` for when \
 the function may returns a Maybe for some reason such as parsing error or \
