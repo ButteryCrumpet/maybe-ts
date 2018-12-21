@@ -1,27 +1,30 @@
 {
-  "name": "pp-validation-rules",
+  "name": "maybe-none",
   "version": "0.0.1",
-  "description": "validation rules",
-  "main": "index.ts",
+  "description": "Typescript implementation of Maybe",
+  "main": "lib/index",
+  "typings": "lib/index",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch",
+    "clean": "rm -rf lib",
+    "build": "tsc -p .",
+    "watch": "tsc -w -p .",
     "test": "jest",
-    "prepare": "npm run build",
+    "prepare": "npm run clean && npm run build",
     "prepublishOnly": "npm test",
-    "version": "ngit add -A src",
+    "version": "git add -A",
     "postversion": "git push && git push --tags"
   },
   "author": "Simon Leigh",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ButteryCrumpet/maybe-ts.git"
+  },
   "devDependencies": {
     "@types/jest": "^23.1.4",
     "jest": "^23.2.0",
     "ts-jest": "^23.0.0",
-    "ts-loader": "^4.4.2",
-    "typescript": "^2.9.2",
-    "webpack": "^4.14.0",
-    "webpack-cli": "^3.0.8"
+    "typescript": "^2.9.2"
   },
   "jest": {
     "transform": {
