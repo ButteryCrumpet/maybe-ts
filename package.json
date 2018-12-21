@@ -1,6 +1,6 @@
 {
   "name": "maybe-none",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typescript implementation of Maybe",
   "main": "./lib/main.js",
   "types": "./lib/main.d.ts",
