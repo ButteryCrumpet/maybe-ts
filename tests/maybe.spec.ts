@@ -1,4 +1,4 @@
-import * as Maybe from "../src/main"
+import * as Maybe from "../src/index"
 
 describe("Maybe", () => {
 
