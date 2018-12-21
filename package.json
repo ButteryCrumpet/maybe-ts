@@ -2,8 +2,8 @@
   "name": "maybe-none",
   "version": "0.0.1",
   "description": "Typescript implementation of Maybe",
-  "main": "lib/index",
-  "typings": "lib/index",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "clean": "rm -rf lib",
     "build": "tsc -p .",
