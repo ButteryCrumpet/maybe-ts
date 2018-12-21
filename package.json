@@ -1,6 +1,6 @@
 {
   "name": "maybe-none",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Typescript implementation of Maybe",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -42,6 +42,10 @@
     "roots": [
       "./tests"
     ],
-    "keywords": ["Maybe", "None", "Some"]
+    "keywords": [
+      "Maybe",
+      "None",
+      "Some"
+    ]
   }
 }
